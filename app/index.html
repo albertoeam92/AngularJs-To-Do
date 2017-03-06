@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AngularJS - To Do List</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
+
+    </head>
+    <body ng-app="angularJsToDoList">
+
+        
+        <ui-view></ui-view>
+
+        <script type="text/javascript" src="angularJsToDoList/angularJsToDoList.module.js"></script>
+
+        <script type="text/javascript" src="angularJsToDoList/features/list/list.module.js"></script>
+        <script type="text/javascript" src="angularJsToDoList/features/list/list.route.js"></script>
+        <script type="text/javascript" src="angularJsToDoList/features/list/list.controller.js"></script>
+
+        <script type="text/javascript" src="angularJsToDoList/features/create/create.module.js"></script>
+        <script type="text/javascript" src="angularJsToDoList/features/create/create.route.js"></script>
+        <script type="text/javascript" src="angularJsToDoList/features/create/create.controller.js"></script>
+
+        <script type="text/javascript" src="angularJsToDoList/features/complete/complete.module.js"></script>
+        <script type="text/javascript" src="angularJsToDoList/features/complete/complete.route.js"></script>
+        <script type="text/javascript" src="angularJsToDoList/features/complete/complete.controller.js"></script>
+    </body>
+</html>
